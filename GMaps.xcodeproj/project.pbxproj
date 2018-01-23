@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2897A3A9577EC76C5E5B448E /* libPods-GMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C02248DD7FE369A6A9650577 /* libPods-GMaps.a */; };
+		F75076322017267F005C1DD9 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = F75076312017267F005C1DD9 /* data.json */; };
+		F750765D20173BA1005C1DD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F750765A20173BA0005C1DD9 /* ViewController.m */; };
+		F750766820173C4D005C1DD9 /* BranchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F750766020173C4D005C1DD9 /* BranchViewController.m */; };
+		F750766920173C4D005C1DD9 /* CustomMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = F750766320173C4D005C1DD9 /* CustomMarker.m */; };
+		F750766A20173C4D005C1DD9 /* DealersModelObj.m in Sources */ = {isa = PBXBuildFile; fileRef = F750766520173C4D005C1DD9 /* DealersModelObj.m */; };
+		F750766B20173C4D005C1DD9 /* MPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F750766720173C4D005C1DD9 /* MPHelper.m */; };
+		F750767720173C67005C1DD9 /* AllDistributorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F750766E20173C67005C1DD9 /* AllDistributorsViewController.m */; };
+		F750767820173C67005C1DD9 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F750767020173C67005C1DD9 /* DashboardViewController.m */; };
+		F750767920173C67005C1DD9 /* NearByBranchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F750767220173C67005C1DD9 /* NearByBranchesViewController.m */; };
+		F750767A20173C67005C1DD9 /* DealerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F750767520173C67005C1DD9 /* DealerTableViewCell.m */; };
+		F750767B20173C67005C1DD9 /* DealerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F750767620173C67005C1DD9 /* DealerTableViewCell.xib */; };
+		F7A3A5E22011D7EC00DEB15D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A3A5E12011D7EC00DEB15D /* AppDelegate.m */; };
+		F7A3A5E82011D7EC00DEB15D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A3A5E62011D7EC00DEB15D /* Main.storyboard */; };
+		F7A3A5EA2011D7EC00DEB15D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A3A5E92011D7EC00DEB15D /* Assets.xcassets */; };
+		F7A3A5ED2011D7EC00DEB15D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A3A5EB2011D7EC00DEB15D /* LaunchScreen.storyboard */; };
+		F7A3A5F02011D7EC00DEB15D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A3A5EF2011D7EC00DEB15D /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		869955A77BCF982198B653BA /* Pods-GMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMaps.release.xcconfig"; path = "Pods/Target Support Files/Pods-GMaps/Pods-GMaps.release.xcconfig"; sourceTree = "<group>"; };
+		C02248DD7FE369A6A9650577 /* libPods-GMaps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GMaps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC034A89110279968A4BB83A /* Pods-GMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMaps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GMaps/Pods-GMaps.debug.xcconfig"; sourceTree = "<group>"; };
+		F75076312017267F005C1DD9 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		F750765920173BA0005C1DD9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F750765A20173BA0005C1DD9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F750765F20173C4D005C1DD9 /* BranchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BranchViewController.h; sourceTree = "<group>"; };
+		F750766020173C4D005C1DD9 /* BranchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BranchViewController.m; sourceTree = "<group>"; };
+		F750766220173C4D005C1DD9 /* CustomMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMarker.h; sourceTree = "<group>"; };
+		F750766320173C4D005C1DD9 /* CustomMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMarker.m; sourceTree = "<group>"; };
+		F750766420173C4D005C1DD9 /* DealersModelObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealersModelObj.h; sourceTree = "<group>"; };
+		F750766520173C4D005C1DD9 /* DealersModelObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealersModelObj.m; sourceTree = "<group>"; };
+		F750766620173C4D005C1DD9 /* MPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPHelper.h; sourceTree = "<group>"; };
+		F750766720173C4D005C1DD9 /* MPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPHelper.m; sourceTree = "<group>"; };
+		F750766D20173C67005C1DD9 /* AllDistributorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllDistributorsViewController.h; sourceTree = "<group>"; };
+		F750766E20173C67005C1DD9 /* AllDistributorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllDistributorsViewController.m; sourceTree = "<group>"; };
+		F750766F20173C67005C1DD9 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		F750767020173C67005C1DD9 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		F750767120173C67005C1DD9 /* NearByBranchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearByBranchesViewController.h; sourceTree = "<group>"; };
+		F750767220173C67005C1DD9 /* NearByBranchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearByBranchesViewController.m; sourceTree = "<group>"; };
+		F750767420173C67005C1DD9 /* DealerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealerTableViewCell.h; sourceTree = "<group>"; };
+		F750767520173C67005C1DD9 /* DealerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealerTableViewCell.m; sourceTree = "<group>"; };
+		F750767620173C67005C1DD9 /* DealerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DealerTableViewCell.xib; sourceTree = "<group>"; };
+		F7A3A5DD2011D7EC00DEB15D /* GMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A3A5E02011D7EC00DEB15D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7A3A5E12011D7EC00DEB15D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7A3A5E72011D7EC00DEB15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7A3A5E92011D7EC00DEB15D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7A3A5EC2011D7EC00DEB15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7A3A5EE2011D7EC00DEB15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A3A5EF2011D7EC00DEB15D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7A3A5DA2011D7EC00DEB15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2897A3A9577EC76C5E5B448E /* libPods-GMaps.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19A36E503152D96B85C2BCAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC034A89110279968A4BB83A /* Pods-GMaps.debug.xcconfig */,
+				869955A77BCF982198B653BA /* Pods-GMaps.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		43F193268490B26886C89594 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C02248DD7FE369A6A9650577 /* libPods-GMaps.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F750765E20173C4D005C1DD9 /* Branches */ = {
+			isa = PBXGroup;
+			children = (
+				F750765F20173C4D005C1DD9 /* BranchViewController.h */,
+				F750766020173C4D005C1DD9 /* BranchViewController.m */,
+			);
+			path = Branches;
+			sourceTree = "<group>";
+		};
+		F750766120173C4D005C1DD9 /* MPHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F750766220173C4D005C1DD9 /* CustomMarker.h */,
+				F750766320173C4D005C1DD9 /* CustomMarker.m */,
+				F750766420173C4D005C1DD9 /* DealersModelObj.h */,
+				F750766520173C4D005C1DD9 /* DealersModelObj.m */,
+				F750766620173C4D005C1DD9 /* MPHelper.h */,
+				F750766720173C4D005C1DD9 /* MPHelper.m */,
+			);
+			path = MPHelper;
+			sourceTree = "<group>";
+		};
+		F750766C20173C67005C1DD9 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				F750766D20173C67005C1DD9 /* AllDistributorsViewController.h */,
+				F750766E20173C67005C1DD9 /* AllDistributorsViewController.m */,
+				F750766F20173C67005C1DD9 /* DashboardViewController.h */,
+				F750767020173C67005C1DD9 /* DashboardViewController.m */,
+				F750767120173C67005C1DD9 /* NearByBranchesViewController.h */,
+				F750767220173C67005C1DD9 /* NearByBranchesViewController.m */,
+				F750767320173C67005C1DD9 /* Views */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		F750767320173C67005C1DD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F750767420173C67005C1DD9 /* DealerTableViewCell.h */,
+				F750767520173C67005C1DD9 /* DealerTableViewCell.m */,
+				F750767620173C67005C1DD9 /* DealerTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7A3A5D42011D7EC00DEB15D = {
+			isa = PBXGroup;
+			children = (
+				F7A3A5DF2011D7EC00DEB15D /* GMaps */,
+				F7A3A5DE2011D7EC00DEB15D /* Products */,
+				19A36E503152D96B85C2BCAB /* Pods */,
+				43F193268490B26886C89594 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7A3A5DE2011D7EC00DEB15D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7A3A5DD2011D7EC00DEB15D /* GMaps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7A3A5DF2011D7EC00DEB15D /* GMaps */ = {
+			isa = PBXGroup;
+			children = (
+				F75076312017267F005C1DD9 /* data.json */,
+				F7A3A5E02011D7EC00DEB15D /* AppDelegate.h */,
+				F7A3A5E12011D7EC00DEB15D /* AppDelegate.m */,
+				F750766C20173C67005C1DD9 /* Dashboard */,
+				F750765E20173C4D005C1DD9 /* Branches */,
+				F750766120173C4D005C1DD9 /* MPHelper */,
+				F750765920173BA0005C1DD9 /* ViewController.h */,
+				F750765A20173BA0005C1DD9 /* ViewController.m */,
+				F7A3A5E62011D7EC00DEB15D /* Main.storyboard */,
+				F7A3A5E92011D7EC00DEB15D /* Assets.xcassets */,
+				F7A3A5EB2011D7EC00DEB15D /* LaunchScreen.storyboard */,
+				F7A3A5EE2011D7EC00DEB15D /* Info.plist */,
+				F7A3A5EF2011D7EC00DEB15D /* main.m */,
+			);
+			path = GMaps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7A3A5DC2011D7EC00DEB15D /* GMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A3A5F32011D7EC00DEB15D /* Build configuration list for PBXNativeTarget "GMaps" */;
+			buildPhases = (
+				F2A8BD88BD28CEF1053EC761 /* [CP] Check Pods Manifest.lock */,
+				F7A3A5D92011D7EC00DEB15D /* Sources */,
+				F7A3A5DA2011D7EC00DEB15D /* Frameworks */,
+				F7A3A5DB2011D7EC00DEB15D /* Resources */,
+				1683A00C2ADF7AF12C732D13 /* [CP] Embed Pods Frameworks */,
+				D8EAEA30D63DC5F1A8F66C8E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMaps;
+			productName = GMaps;
+			productReference = F7A3A5DD2011D7EC00DEB15D /* GMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7A3A5D52011D7EC00DEB15D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Bhalchandra;
+				TargetAttributes = {
+					F7A3A5DC2011D7EC00DEB15D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F7A3A5D82011D7EC00DEB15D /* Build configuration list for PBXProject "GMaps" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7A3A5D42011D7EC00DEB15D;
+			productRefGroup = F7A3A5DE2011D7EC00DEB15D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7A3A5DC2011D7EC00DEB15D /* GMaps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7A3A5DB2011D7EC00DEB15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A3A5ED2011D7EC00DEB15D /* LaunchScreen.storyboard in Resources */,
+				F7A3A5EA2011D7EC00DEB15D /* Assets.xcassets in Resources */,
+				F75076322017267F005C1DD9 /* data.json in Resources */,
+				F750767B20173C67005C1DD9 /* DealerTableViewCell.xib in Resources */,
+				F7A3A5E82011D7EC00DEB15D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1683A00C2ADF7AF12C732D13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GMaps/Pods-GMaps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8EAEA30D63DC5F1A8F66C8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GMaps/Pods-GMaps-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GMaps/Pods-GMaps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2A8BD88BD28CEF1053EC761 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GMaps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7A3A5D92011D7EC00DEB15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F750767720173C67005C1DD9 /* AllDistributorsViewController.m in Sources */,
+				F750766A20173C4D005C1DD9 /* DealersModelObj.m in Sources */,
+				F750766920173C4D005C1DD9 /* CustomMarker.m in Sources */,
+				F750767920173C67005C1DD9 /* NearByBranchesViewController.m in Sources */,
+				F750765D20173BA1005C1DD9 /* ViewController.m in Sources */,
+				F7A3A5F02011D7EC00DEB15D /* main.m in Sources */,
+				F750767A20173C67005C1DD9 /* DealerTableViewCell.m in Sources */,
+				F750766820173C4D005C1DD9 /* BranchViewController.m in Sources */,
+				F750766B20173C4D005C1DD9 /* MPHelper.m in Sources */,
+				F750767820173C67005C1DD9 /* DashboardViewController.m in Sources */,
+				F7A3A5E22011D7EC00DEB15D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7A3A5E62011D7EC00DEB15D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7A3A5E72011D7EC00DEB15D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7A3A5EB2011D7EC00DEB15D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7A3A5EC2011D7EC00DEB15D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7A3A5F12011D7EC00DEB15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7A3A5F22011D7EC00DEB15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7A3A5F42011D7EC00DEB15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC034A89110279968A4BB83A /* Pods-GMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G852UN9BZY;
+				INFOPLIST_FILE = GMaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfi.GMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7A3A5F52011D7EC00DEB15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 869955A77BCF982198B653BA /* Pods-GMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G852UN9BZY;
+				INFOPLIST_FILE = GMaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfi.GMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7A3A5D82011D7EC00DEB15D /* Build configuration list for PBXProject "GMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A3A5F12011D7EC00DEB15D /* Debug */,
+				F7A3A5F22011D7EC00DEB15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A3A5F32011D7EC00DEB15D /* Build configuration list for PBXNativeTarget "GMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A3A5F42011D7EC00DEB15D /* Debug */,
+				F7A3A5F52011D7EC00DEB15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7A3A5D52011D7EC00DEB15D /* Project object */;
+}

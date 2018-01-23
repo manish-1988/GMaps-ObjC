@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03126AE652F314669C3679D333C174E7 /* CarbonTabSwipeScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9590EEDA14A1E73FDCE639F485C68740 /* CarbonTabSwipeScrollView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2CC97D99FAF4F3081485653020661428 /* CarbonTabSwipeSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E632CCBE247D73EE2D06E3F0E1C4984 /* CarbonTabSwipeSegmentedControl.m */; };
+		34CD9F336759AFA8F767010646529B28 /* CarbonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5DD06417DBE30721802ED1A9E4856B /* CarbonKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3F63A95CA243AB9DD7C71830D687BDBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		4BCBD997B5DF6A013453C7D323C2EA71 /* CarbonTabSwipeSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B51634D166F679DFCD3C7000950502 /* CarbonTabSwipeSegmentedControl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5221B096843C3FF0F790710D93092C5F /* CarbonTabSwipeNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F36452F8F916B0C44D97F7335287014 /* CarbonTabSwipeNavigation.m */; };
+		6FAF0D106FE0F90D56BA297093D2D955 /* Pods-GMaps-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D80E9F95D1012C117C420436E613A5E /* Pods-GMaps-dummy.m */; };
+		7E1609A8E6854CA25F2A31415C81A24D /* CarbonSwipeRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 5886AFE08AA077A405E694685543E384 /* CarbonSwipeRefresh.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B04C92EE770A02310B8098D83B9291BB /* CarbonSwipeRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = E056D0599D76F69D2F281AA39FF5B117 /* CarbonSwipeRefresh.m */; };
+		B43714DB85A76F08ACFCC451C71D4338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		C2F7414D5D918D8EE6EE83946F6A5B02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		C56C49B83D00B27C9AE3B1257817E231 /* CarbonTabSwipeNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F72AB0392433A5C65B8AA156B29F4C /* CarbonTabSwipeNavigation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D52E247362FAA7C449217C7692744C96 /* CarbonKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52189BEB0CDA6074898D9D4301B2767D /* CarbonKit-dummy.m */; };
+		FB05D819091721998817747D0CD45189 /* CarbonTabSwipeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A89A21E9ED649B9057E5BCD2BE86A4 /* CarbonTabSwipeScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A890F9EE172A76C40B3059B58FB8FC8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C5F6E35ACC7B9C346F0C877035626E5;
+			remoteInfo = CarbonKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12C589EC5FA23719C3DC719E6ADD79E0 /* libPods-GMaps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GMaps.a"; path = "libPods-GMaps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B46D332A0878725E047864E2CBC9C71 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		43F72AB0392433A5C65B8AA156B29F4C /* CarbonTabSwipeNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonTabSwipeNavigation.h; path = CarbonKit/CarbonTabSwipeNavigation.h; sourceTree = "<group>"; };
+		48B51634D166F679DFCD3C7000950502 /* CarbonTabSwipeSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonTabSwipeSegmentedControl.h; path = CarbonKit/CarbonTabSwipeSegmentedControl.h; sourceTree = "<group>"; };
+		4F36452F8F916B0C44D97F7335287014 /* CarbonTabSwipeNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CarbonTabSwipeNavigation.m; path = CarbonKit/CarbonTabSwipeNavigation.m; sourceTree = "<group>"; };
+		52189BEB0CDA6074898D9D4301B2767D /* CarbonKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CarbonKit-dummy.m"; sourceTree = "<group>"; };
+		5886AFE08AA077A405E694685543E384 /* CarbonSwipeRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonSwipeRefresh.h; path = CarbonKit/CarbonSwipeRefresh.h; sourceTree = "<group>"; };
+		5D80E9F95D1012C117C420436E613A5E /* Pods-GMaps-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMaps-dummy.m"; sourceTree = "<group>"; };
+		5E80DAA8248A1521C195C3743ED792C5 /* libCarbonKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCarbonKit.a; path = libCarbonKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		616970C700E78C25CB2B51D47D2C8BFF /* CarbonKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CarbonKit.xcconfig; sourceTree = "<group>"; };
+		6F59BE0F33715DF59EE5BD09CC436FBB /* Pods-GMaps-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GMaps-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72713B017CE772DCAFCD75488FA5244C /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		77A89A21E9ED649B9057E5BCD2BE86A4 /* CarbonTabSwipeScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CarbonTabSwipeScrollView.m; path = CarbonKit/CarbonTabSwipeScrollView.m; sourceTree = "<group>"; };
+		7B5DD06417DBE30721802ED1A9E4856B /* CarbonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonKit.h; path = CarbonKit/CarbonKit.h; sourceTree = "<group>"; };
+		8301A828261AF77EBBF2838B18E7C73F /* CarbonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CarbonKit-prefix.pch"; sourceTree = "<group>"; };
+		8A2C107FC48968E8C2D51928A6025A77 /* Pods-GMaps-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMaps-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E632CCBE247D73EE2D06E3F0E1C4984 /* CarbonTabSwipeSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CarbonTabSwipeSegmentedControl.m; path = CarbonKit/CarbonTabSwipeSegmentedControl.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9590EEDA14A1E73FDCE639F485C68740 /* CarbonTabSwipeScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonTabSwipeScrollView.h; path = CarbonKit/CarbonTabSwipeScrollView.h; sourceTree = "<group>"; };
+		B45C0F8C106FCC92C6C22747557852E6 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C5A8B7AFFA45B150932EC8467A3DE4EC /* Pods-GMaps-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMaps-resources.sh"; sourceTree = "<group>"; };
+		CAA50F37ECD3ACE253F56E6A5250C7A2 /* Pods-GMaps-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMaps-frameworks.sh"; sourceTree = "<group>"; };
+		D4E79E055E242287ACF1385FDC02C049 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E056D0599D76F69D2F281AA39FF5B117 /* CarbonSwipeRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CarbonSwipeRefresh.m; path = CarbonKit/CarbonSwipeRefresh.m; sourceTree = "<group>"; };
+		E5DAA41BE7A6AF057C5EB348232792D5 /* Pods-GMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMaps.release.xcconfig"; sourceTree = "<group>"; };
+		F1C3FE1B86063205AA4AF127E3D7999E /* Pods-GMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMaps.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0BF441E74D04D57820707BE8E3AA8F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F7414D5D918D8EE6EE83946F6A5B02 /* Foundation.framework in Frameworks */,
+				3F63A95CA243AB9DD7C71830D687BDBB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A4851FF8F4411BBCC491542AFD3C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43714DB85A76F08ACFCC451C71D4338 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10966CB4661175EC5F9FAB400D0786EA /* Pods-GMaps */ = {
+			isa = PBXGroup;
+			children = (
+				6F59BE0F33715DF59EE5BD09CC436FBB /* Pods-GMaps-acknowledgements.markdown */,
+				8A2C107FC48968E8C2D51928A6025A77 /* Pods-GMaps-acknowledgements.plist */,
+				5D80E9F95D1012C117C420436E613A5E /* Pods-GMaps-dummy.m */,
+				CAA50F37ECD3ACE253F56E6A5250C7A2 /* Pods-GMaps-frameworks.sh */,
+				C5A8B7AFFA45B150932EC8467A3DE4EC /* Pods-GMaps-resources.sh */,
+				F1C3FE1B86063205AA4AF127E3D7999E /* Pods-GMaps.debug.xcconfig */,
+				E5DAA41BE7A6AF057C5EB348232792D5 /* Pods-GMaps.release.xcconfig */,
+			);
+			name = "Pods-GMaps";
+			path = "Target Support Files/Pods-GMaps";
+			sourceTree = "<group>";
+		};
+		17F454316B47497A325C82FECD3FA34D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10966CB4661175EC5F9FAB400D0786EA /* Pods-GMaps */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		252CE16B983A70081558BF21097D9A00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8323680DE8BB2B3A54A77D95A40BE912 /* CarbonKit */,
+				D50268953056D79427AB16D398572C8E /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		27D92D6A40EA88078DE2B7F9CFD3805A /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				76C9CEE50B3BDEE4E26C6E39D4F5F859 /* Frameworks */,
+				52EAF6F751659E992F757DD5DCB7704D /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		52EAF6F751659E992F757DD5DCB7704D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72713B017CE772DCAFCD75488FA5244C /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		76C9CEE50B3BDEE4E26C6E39D4F5F859 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B45C0F8C106FCC92C6C22747557852E6 /* GoogleMaps.framework */,
+				D4E79E055E242287ACF1385FDC02C049 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		785E1004ACBF195929B7271CA36CF4DE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9FD424CCEAA50710236A85760D164523 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				252CE16B983A70081558BF21097D9A00 /* Pods */,
+				BB9D85B372D367BA0B448D4423CDA2B2 /* Products */,
+				17F454316B47497A325C82FECD3FA34D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8323680DE8BB2B3A54A77D95A40BE912 /* CarbonKit */ = {
+			isa = PBXGroup;
+			children = (
+				7B5DD06417DBE30721802ED1A9E4856B /* CarbonKit.h */,
+				5886AFE08AA077A405E694685543E384 /* CarbonSwipeRefresh.h */,
+				E056D0599D76F69D2F281AA39FF5B117 /* CarbonSwipeRefresh.m */,
+				43F72AB0392433A5C65B8AA156B29F4C /* CarbonTabSwipeNavigation.h */,
+				4F36452F8F916B0C44D97F7335287014 /* CarbonTabSwipeNavigation.m */,
+				9590EEDA14A1E73FDCE639F485C68740 /* CarbonTabSwipeScrollView.h */,
+				77A89A21E9ED649B9057E5BCD2BE86A4 /* CarbonTabSwipeScrollView.m */,
+				48B51634D166F679DFCD3C7000950502 /* CarbonTabSwipeSegmentedControl.h */,
+				8E632CCBE247D73EE2D06E3F0E1C4984 /* CarbonTabSwipeSegmentedControl.m */,
+				C62E90CE63070D14EE09B6D35E4774DF /* Support Files */,
+			);
+			name = CarbonKit;
+			path = CarbonKit;
+			sourceTree = "<group>";
+		};
+		9FD424CCEAA50710236A85760D164523 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B46D332A0878725E047864E2CBC9C71 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB9D85B372D367BA0B448D4423CDA2B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E80DAA8248A1521C195C3743ED792C5 /* libCarbonKit.a */,
+				12C589EC5FA23719C3DC719E6ADD79E0 /* libPods-GMaps.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C62E90CE63070D14EE09B6D35E4774DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				616970C700E78C25CB2B51D47D2C8BFF /* CarbonKit.xcconfig */,
+				52189BEB0CDA6074898D9D4301B2767D /* CarbonKit-dummy.m */,
+				8301A828261AF77EBBF2838B18E7C73F /* CarbonKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CarbonKit";
+			sourceTree = "<group>";
+		};
+		D50268953056D79427AB16D398572C8E /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				785E1004ACBF195929B7271CA36CF4DE /* Base */,
+				27D92D6A40EA88078DE2B7F9CFD3805A /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F31423679B692A0C6F1E2D531494D623 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CD9F336759AFA8F767010646529B28 /* CarbonKit.h in Headers */,
+				7E1609A8E6854CA25F2A31415C81A24D /* CarbonSwipeRefresh.h in Headers */,
+				C56C49B83D00B27C9AE3B1257817E231 /* CarbonTabSwipeNavigation.h in Headers */,
+				03126AE652F314669C3679D333C174E7 /* CarbonTabSwipeScrollView.h in Headers */,
+				4BCBD997B5DF6A013453C7D323C2EA71 /* CarbonTabSwipeSegmentedControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2185A5F80003D3742BA0A78343355FC8 /* Pods-GMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7592D1513E19868189ABC144778359C /* Build configuration list for PBXNativeTarget "Pods-GMaps" */;
+			buildPhases = (
+				021CCA5585C2DC2159A12EEC404D9B68 /* Sources */,
+				F2A4851FF8F4411BBCC491542AFD3C31 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7CD21392D7817EF8091F91197F691AB /* PBXTargetDependency */,
+			);
+			name = "Pods-GMaps";
+			productName = "Pods-GMaps";
+			productReference = 12C589EC5FA23719C3DC719E6ADD79E0 /* libPods-GMaps.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5C5F6E35ACC7B9C346F0C877035626E5 /* CarbonKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CF8565DA4FFD8DD505F93FF00D15337 /* Build configuration list for PBXNativeTarget "CarbonKit" */;
+			buildPhases = (
+				CBA60EC83C4BDFBC145C632D4E8FB2BF /* Sources */,
+				C0BF441E74D04D57820707BE8E3AA8F7 /* Frameworks */,
+				F31423679B692A0C6F1E2D531494D623 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarbonKit;
+			productName = CarbonKit;
+			productReference = 5E80DAA8248A1521C195C3743ED792C5 /* libCarbonKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BB9D85B372D367BA0B448D4423CDA2B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C5F6E35ACC7B9C346F0C877035626E5 /* CarbonKit */,
+				2185A5F80003D3742BA0A78343355FC8 /* Pods-GMaps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		021CCA5585C2DC2159A12EEC404D9B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAF0D106FE0F90D56BA297093D2D955 /* Pods-GMaps-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA60EC83C4BDFBC145C632D4E8FB2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52E247362FAA7C449217C7692744C96 /* CarbonKit-dummy.m in Sources */,
+				B04C92EE770A02310B8098D83B9291BB /* CarbonSwipeRefresh.m in Sources */,
+				5221B096843C3FF0F790710D93092C5F /* CarbonTabSwipeNavigation.m in Sources */,
+				FB05D819091721998817747D0CD45189 /* CarbonTabSwipeScrollView.m in Sources */,
+				2CC97D99FAF4F3081485653020661428 /* CarbonTabSwipeSegmentedControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7CD21392D7817EF8091F91197F691AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CarbonKit;
+			target = 5C5F6E35ACC7B9C346F0C877035626E5 /* CarbonKit */;
+			targetProxy = A890F9EE172A76C40B3059B58FB8FC8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A6585E0B914F349D62B11F31170DC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1C3FE1B86063205AA4AF127E3D7999E /* Pods-GMaps.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		79FBD622EF5A079A76BE1D28D8D451C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 616970C700E78C25CB2B51D47D2C8BFF /* CarbonKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CarbonKit/CarbonKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		96B6AEC78C6884CC6CE23FA94CECC6CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DAA41BE7A6AF057C5EB348232792D5 /* Pods-GMaps.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2DA48204B8992EA17B2CFF7ABCF652E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 616970C700E78C25CB2B51D47D2C8BFF /* CarbonKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CarbonKit/CarbonKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CF8565DA4FFD8DD505F93FF00D15337 /* Build configuration list for PBXNativeTarget "CarbonKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DA48204B8992EA17B2CFF7ABCF652E /* Debug */,
+				79FBD622EF5A079A76BE1D28D8D451C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7592D1513E19868189ABC144778359C /* Build configuration list for PBXNativeTarget "Pods-GMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A6585E0B914F349D62B11F31170DC9C /* Debug */,
+				96B6AEC78C6884CC6CE23FA94CECC6CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

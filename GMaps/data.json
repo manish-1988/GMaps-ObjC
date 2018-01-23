@@ -1,0 +1,198 @@
+{
+   "Data":{
+      "Dealers":[
+         {
+            "DealerID":321,
+            "DealerName":"NATIONAL FOOD CO. MAHSEEL / ERKKIA",
+            "Latitude":51.180352,
+            "Longtitude":25.048443,
+            "Distance":6143866.1361141,
+            "Address":"arkia"
+         },
+         {
+            "DealerID":31,
+            "DealerName":"Al Meera Consumers.co / Jumaliya branch",
+            "Latitude":51.083994999999994,
+            "Longtitude":25.615408,
+            "Distance":6155395.14192794,
+            "Address":"jumaliya"
+         },
+         {
+            "DealerID":406,
+            "DealerName":"AlMeer Consumers . Co / Muaizer branch",
+            "Latitude":51.281479,
+            "Longtitude":25.165585999999998,
+            "Distance":6157726.2894014,
+            "Address":null
+         },
+         {
+            "DealerID":183,
+            "DealerName":"NATIONAL FOOD CO. MAHSEEL / SHAHANIYA",
+            "Latitude":51.2123,
+            "Longtitude":25.34911,
+            "Distance":6157801.0851901,
+            "Address":"SHAHANIYA"
+         },
+         {
+            "DealerID":26,
+            "DealerName":"Al Meera Consumers.Co / Shahaniya branch",
+            "Latitude":51.227889999999995,
+            "Longtitude":25.36654,
+            "Distance":6159915.96655397,
+            "Address":"shahaniya"
+         },
+         {
+            "DealerID":91,
+            "DealerName":"Wardat Al Shahaniya Animalmfeeds",
+            "Latitude":51.231134999999995,
+            "Longtitude":25.373694999999998,
+            "Distance":6160484.55103091,
+            "Address":"al shahaniya"
+         },
+         {
+            "DealerID":57,
+            "DealerName":"White Planet Trading co",
+            "Latitude":51.231480999999995,
+            "Longtitude":25.373552999999998,
+            "Distance":6160512.23205316,
+            "Address":"Shahaniya"
+         },
+         {
+            "DealerID":65,
+            "DealerName":"Shahaniya Supplies & Animal Feed",
+            "Latitude":51.233050999999996,
+            "Longtitude":25.371823,
+            "Distance":6160598.31686983,
+            "Address":"al shahaniya"
+         },
+         {
+            "DealerID":33,
+            "DealerName":"Al Meera Consumers.co / Abu Nakhla branch",
+            "Latitude":51.380744,
+            "Longtitude":25.181302,
+            "Distance":6167744.34125384,
+            "Address":"abu nakhla"
+         },
+         {
+            "DealerID":404,
+            "DealerName":"Al Shahwani Al Matiri Supplies and Trading AlMrad Branch",
+            "Latitude":51.368176,
+            "Longtitude":25.241733,
+            "Distance":6168726.4079361,
+            "Address":null
+         },
+         {
+            "DealerID":51,
+            "DealerName":"Al Anwar Supplies and Food Stuff",
+            "Latitude":51.381009999999996,
+            "Longtitude":25.230808999999997,
+            "Distance":6169553.56507469,
+            "Address":"Sailiya"
+         },
+         {
+            "DealerID":414,
+            "DealerName":"Albida Supply",
+            "Latitude":51.374641,
+            "Longtitude":25.252457,
+            "Distance":6169728.58132051,
+            "Address":null
+         },
+         {
+            "DealerID":301,
+            "DealerName":"ALTAAYF COOLING  INDUSTRIAL BRANCH",
+            "Latitude":51.41543,
+            "Longtitude":25.19943,
+            "Distance":6171699.65265323,
+            "Address":"AL SNAYEA"
+         },
+         {
+            "DealerID":83,
+            "DealerName":"Al Taayf Cooling",
+            "Latitude":51.415529,
+            "Longtitude":25.199178999999997,
+            "Distance":6171700.04674558,
+            "Address":"al laqtaa"
+         },
+         {
+            "DealerID":408,
+            "DealerName":"Zekreet Supplies Company",
+            "Latitude":51.382245,
+            "Longtitude":25.335646999999998,
+            "Distance":6173458.25746176,
+            "Address":null
+         },
+         {
+            "DealerID":419,
+            "DealerName":"al meera consmer goods company/AlWajba branch",
+            "Latitude":51.404961,
+            "Longtitude":25.27684,
+            "Distance":6173493.00870884,
+            "Address":" ام الدوم منطقة/ 55"
+         },
+         {
+            "DealerID":426,
+            "DealerName":"Almeera Rawda Al Qadeem",
+            "Latitude":51.386039999999994,
+            "Longtitude":25.33025,
+            "Distance":6173623.70198245,
+            "Address":null
+         },
+         {
+            "DealerID":141,
+            "DealerName":"Saudi Hypermarket Copany Branch M Dom",
+            "Latitude":51.408243999999996,
+            "Longtitude":25.273767,
+            "Distance":6173694.41077966,
+            "Address":"North Muaither"
+         },
+         {
+            "DealerID":60,
+            "DealerName":"Samawa Supplies",
+            "Latitude":51.42478,
+            "Longtitude":25.230960999999997,
+            "Distance":6173724.85011987,
+            "Address":"Murra"
+         },
+         {
+            "DealerID":47,
+            "DealerName":"Al Shahwani Al Matiri Supplies and Trading co",
+            "Latitude":51.414198999999996,
+            "Longtitude":25.272707,
+            "Distance":6174222.66128826,
+            "Address":"north.muaither"
+         },
+         {
+            "DealerID":281,
+            "DealerName":"Saudi Hypermarket Company",
+            "Latitude":51.412937,
+            "Longtitude":25.279397,
+            "Distance":6174343.98071841,
+            "Address":"Muaither North"
+         },
+         {
+            "DealerID":64,
+            "DealerName":"Muaizer Marketiug &Supplies Center",
+            "Latitude":51.414561,
+            "Longtitude":25.277652,
+            "Distance":6174435.49910316,
+            "Address":"Muaither Achammalh"
+         },
+         {
+            "DealerID":22,
+            "DealerName":"Al Meera Consumers.co Murra branch",
+            "Latitude":51.4302,
+            "Longtitude":25.2403,
+            "Distance":6174577.06060474,
+            "Address":"murra"
+         },
+         {
+            "DealerID":84,
+            "DealerName":"Jwaher Supplis & Foot Stuff",
+            "Latitude":51.435869999999994,
+            "Longtitude":25.22925,
+            "Distance":6174718.85970898,
+            "Address":"al Murra"
+         }
+      ]
+   }
+}
